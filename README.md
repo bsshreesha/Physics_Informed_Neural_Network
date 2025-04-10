@@ -9,6 +9,9 @@ The architecture of a typical PINN can be visualized as follows:
 Input Layer (Time and Spatial Coordinates) --> Hidden Layers (Fully Connected) --> Output Layer (Solution of PDE)
 
 Each hidden layer consists of neurons with activation functions. The network is trained to minimize the loss function that includes both data loss and physics loss.
+![pinn_arch](https://github.com/user-attachments/assets/1b58c9f0-f788-4243-b51d-e3c31f38b6dc)
+
+
 
 ## Installation
 
